@@ -1,0 +1,29 @@
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.side {
+  background-color: black;
+  color: aliceblue;
+  height: 91vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+li {
+  padding: 20px;
+}
+
+img {
+  margin: 10px 40px;
+  align-self: center;
+  border-radius: 50%;
+  width: 100px;
+}
+.main {
+  display: flex;
+}
+.content {
+  margin: 20px;
+}

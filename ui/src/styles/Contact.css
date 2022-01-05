@@ -1,0 +1,42 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contactform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 80vw;
+}
+input {
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 50vw;
+  height: 20px;
+  margin: 10px;
+}
+textarea {
+  width: 50vw;
+  height: 100px;
+}
+label {
+  margin: 10px;
+  margin-left: -550px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button {
+  background-color: black;
+  color: blanchedalmond;
+  padding: 20px;
+  width: 100px;
+  border-radius: 20px;
+  height: 20px;
+}
+@media only screen and (max-width: 600px) {
+  label {
+    margin-left: -100px;
+  }
+}
