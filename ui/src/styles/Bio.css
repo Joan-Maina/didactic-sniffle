@@ -1,0 +1,8 @@
+.aboutdescription {
+  text-align: left;
+}
+.bio {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}

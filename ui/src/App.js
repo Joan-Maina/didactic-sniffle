@@ -6,6 +6,7 @@ import { AiOutlineMenuFold } from "react-icons/ai";
 import React, { useState } from "react";
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
+import Navbar from "./components/Navbar";
 // import About from "./components/About";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <AiOutlineMenuFold
+        className="menu"
         onClick={() => handleShow()}
         style={{
           margin: "20px",
@@ -24,6 +26,7 @@ function App() {
           padding: "10px",
         }}
       />
+      <Navbar />
       <div className="main">
         {show && (
           <div className="side">
@@ -31,13 +34,13 @@ function App() {
           </div>
         )}
         <div className="content">
+          <Bio />
+
           <div id="contact">
             <Contact />
           </div>
 
           {/* <Blog /> */}
-
-          {/* <Bio /> */}
         </div>
       </div>
     </>
