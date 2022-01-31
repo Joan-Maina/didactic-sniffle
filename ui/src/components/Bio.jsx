@@ -10,11 +10,12 @@ function Bio() {
           <p className="aboutdescription">
             I solve user problems using javascript <br /> All things tech! I
             enjoy talking to computers :)
+            <br />I enjoy training too. <br /> We learn best by teaching others.
           </p>
         </div>
         <div className="joanimage">
           <img
-            src="https://images.unsplash.com/photo-1640878588131-4a5f39371d0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
+            src="https://thejitu.com/wp-content/uploads/2021/10/Joan-Maina.jpg"
             alt="bio photo"
           />
         </div>

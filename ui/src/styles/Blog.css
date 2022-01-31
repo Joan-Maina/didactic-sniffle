@@ -1,0 +1,14 @@
+.tiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tileone,
+.tiletwo,
+.tilethree {
+  width: 70vw;
+  border: 1px solid white;
+  margin: 20px;
+  padding: 10px;
+}

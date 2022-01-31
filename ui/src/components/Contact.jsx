@@ -20,7 +20,8 @@ function Contact() {
     dispatch(sendEmail(data));
   };
   return (
-    <div>
+    <div className="contactformdiv">
+      <h3>Feel free to reach out to me for collaborations and gigs!</h3>
       <form className="contactform" onSubmit={(e) => handleSubmit(e)}>
         <label htmlFor="subject">Subject</label>
         <input

@@ -5,19 +5,25 @@
   background-color: rgb(44, 42, 42);
   color: white;
 }
+.main {
+  position: relative;
+}
+.sidebardiv {
+  position: absolute;
+}
 ul {
   list-style: none;
   margin-top: 10px;
 }
 
-.side {
+/* .side {
   background-color: black;
   color: aliceblue;
   height: 91vh;
   width: 200px;
   display: flex;
   flex-direction: column;
-}
+} */
 li {
   padding: 20px;
 }
